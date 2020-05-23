@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Toliau</item>
+  <item id="btnclose">Uždaryti</item>
+  <item id="btnHelp">Pagalba</item>
+  <item id="btnAgreement">Labiau sutinku</item>
+  <item id="btnNeutral">Neapsisprendžiu</item>
+  <item id="btnDisagreement">Labiau nesutinku</item>
+  <item id="btnTransfer">Pateikti duomenis</item>
+  <item id="btnMail">Išiųsti elektroniniu paštu</item>
+  <item id="btnPrint">Spausdinti duomenis</item>
+  <item id="btnExit">Išeiti</item>
+  <item id="selectItem">Prašome pasirinkti</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Jeigu išeisite, atsakymai bus prarasti</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Atgal</item>
+  <item id="fillInRequiredFields">Prašome užpildyti visus laukelius</item>
+
+  <!-- errors -->
+  <item id="errorHead">Klaida!</item>
+  <item id="errorWindowTooSmall">Prašome padidinti naršyklės langą</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Sveiki!</item>
+  <item id="welcomeText">Prieš jus - Lietuvoje mažai taikytas tyrimo būdas socialiniuose moksluose pavadinimu Q metodologija. Tyrimo tikslas - išsiaiškinti Punios šilo konfliktu besidominčių žmonių subjektyvias nuomones ir sukurti bei interpretuoti vyraujančius mąstymo modelius naudojantis statistiniais metodais. Dalyvaudami tyrime prisidedate prie naujo mokslinio tyrimo metodo vystymo bei padedate išanalizuoti Punios šilo konflikto detales.{br}{br}Numatomas testo laikas 15-20 minučių. Sekite instrukcijas.{br}{br}Paspauskite mygtuką "Toliau"</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Tyrimo eiga</item>
+  <item id="introText">Prieš jus atsiras teiginiai apie Punios šilą, kurie buvo išsakyti viešojoje erdvėje. Tyrimas susidės iš trijų etapų, o prieš kiekvieną iš jų - paaiškinimas.{br}{br}Jeigu norėsite dar kartą perskaityti instrukcijas, paspauskite "Pagalba" ekrano apačioje.{br}{br}Paspauskite "Toliau"</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">1 etapas</item>
+  <item id="step1Text">Atidžiai perskaitykite 25 teiginius ir suskirstykite į tris grupes: teiginius su kuriais labiau sutinkate, teiginius su kuriais labiau nesutinkate bei teiginius dėl kurių negalite apsispręsti.{br}{br}Teiginius galite arba nutempti (pirmiausia paspaudę ant teiginio ir tempti prie vieno iš trijų kategorijų), arba spausti atitinkamus 1, 2, 3 skaičių klavišus (šalia F1, F2, F3 viršuje klaviatūros). Kitame etape teiginius reikės paskirstyti į tikslias kategorijas.{br}{br}Jeigu norėsite dar kartą perskaityti instrukcijas, paspauskite "Pagalba" ekrano apačioje.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">2 etapas</item>
+  <item id="step2Text">Ši skalė nuo -4 iki +4 nurodo, kaip stipriai sutinkate (arba ne) su pasirinktu teiginiu.{br}{br} Pirmiausia perskaitykite visus teiginius "labiau sutinku" kategorijoje (galite naudotis šone esančiu mygtuku paslinkti) ir išrinkę labiausiai jums artimus teiginius nutempkite juos į +4 bei +3 stulpelius. Tą patį padarykite su teiginiais "labiau nesutinku" ir nutempkite į -4 bei -3. Tuomet skirstykite likusius teiginius į atitinkamus stulpelius.{br}{br}Galiausiai užbaikite pildyti su teiginiais iš vidurinės kategorijos "Neapsisprendžiu".{br}{br} Įdėję atsakymą į tam tikrą langelį, vėl jį galite peržiūrėti užslinkę ant jo pelę.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Patikrinkite duomenis</item>
+  <item id="step3Text">Galite padaryti paskutinius pakeitimus.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">3 etapas</item>
+  <item id="step4Text">Jeigu galite, pakomentuokite kodėl su šiais teiginiais labiausiai sutikote/nesutikote.</item>
+
+  <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Klausimai identifikacijai</item>
+  <item id="step5Text">Prašome atsakyti į paskutinius klausimus (duomenys nebus viešinami)</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Pateikti duomenis</item>
+  <item id="transferText">Jūs užbaigėte tyrimą, paspauskite "pateikite duomenis".</item>
+  <item id="transferFailed">Duomenų išsaugoti nepavyko. Pabandykite dar kartą arba sugrįžkite ir nufotografuokite 2 ir 3 užduoties darbalaukį su PrtSc mygtuku klaviatūroje ir įkelti į MS office Word failą (paspausti ctrl+v) bei atsiųsti dokumentą el. paštu.</item>
+  <item id="transferOk">Nuoširdžiai dėkoju už Jūsų indėlį. Galite uždaryti programą.</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Pateikti duomenis</item>
+  <item id="mailText">Galite pateikti duomenis elektroniniu paštu (Outlook)</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Ačiū už dalyvavimą tyrime.</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>

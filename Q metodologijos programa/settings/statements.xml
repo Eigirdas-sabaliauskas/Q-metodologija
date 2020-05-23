@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">Priemonės, kokios dabar taikomos ūkininkaujant Punios Šile, gali duoti lentų, bet ne sveiko miško.</statement>
+  <statement id="2">Paliktos supūti, nudžiuvusios ir neiškirstos eglės šile – didelis ekonominis nuostolis.</statement>
+  <statement id="3">Netvarkomame miške bus daug didesnės gaisrų rizikos.</statement>
+  <statement id="4">Nekontroliuojama kanopinių žvėrių populiacija Punios Šile pridarys didelės žalos aplinkui gyvenančių žmonių pasėliams, bei kils grėsmė gyvuliams dėl padidėjusios vilkų populiacijos.</statement>
+  <statement id="5">Jei paliksim taip kaip yra, tai iš Punios šilo kinivarpų židiniai persimes į kitus miškus ir taip bus sunaikinta didelė dalis eglynų Lietuvoje.</statement>
+  <statement id="6">Rezervatuose žūvančių spygliuočių medžių vietoje išauga nepraeinami menkaverčių lapuočių krūmynai, lazdynai, aukštos žolės, taip miškas praranda savo estetinę vertę.</statement>
+  <statement id="7">Galimybė visuomenei lankytis Punios šile yra svarbi sąmoningumo ugdymo, švietimo, mokymo, pažintiniais ir rekreaciniais tikslais.</statement>
+  <statement id="8">Šilo klausimas dėl rezervato plėtros yra ne savivaldybės ar rajono klausimas, o nacionalinis klausimas.</statement>
+  <statement id="9">Ateities pasaulyje, kuriame nebeliks vietos natūraliai, laukinei gamtai, konservuojamos rūšys ir pirmykštė ekosistema įgys neįkainojamą vertę.</statement>
+  <statement id="10">Kinivarpų nugraužti sausi krentantys medžiai sukels realią grėsmę pro šalį einantiems turistams bei vietiniams žmonėms.</statement>
+  <statement id="11">Medžioklė visada orientuota į didesnį nei natūralų medžiojamosios faunos teritorijoje palaikymą, o tai kenkia natūraliam miško atsikūrimui, bei ekosistemoms formuotis.</statement>
+  <statement id="12">Kinivarpos nėra kenkėjos. Jos - miško dalis ir maistas kitiems gyviams. Su negyva mediena pašalinami ir kinivarpas ėdantys gyviai, čia ir prasideda problemos.</statement>
+  <statement id="13">Moksliniams tyrimams užtenka 17% šilo teritorijos. Tokių miškų kaip Punios šilas yra pakankamai Aukštaitijos bei Žemaitijos nacionalinių parkų rezervatuose.</statement>
+  <statement id="14">Rezervate susiformuos sengirė su natūralia medžių rūšių kaita ir nematomais simbiotiniais ryšiais, kurie padės miškui atsistatyti po įvairių nelaimių, tokių kaip ekstremalūs orai, kenkėjai ir ligos, gaisrai.</statement>
+ <statement id="15">Privaloma leisti medžiams bręsti ir baigti gyvenimą natūraliai – krituolių pavidalų, nes krituoliai reikalingi sveikai ekosistemai.</statement>
+ <statement id="16">Būtina gyvais pavyzdžiais Lietuvos žmonėms parodyti ir paaiškinti, koks didelis yra plintančių pavojingų kenkėjų invazijos pavojus miškams, ir kodėl yra būtinos sanitarinės apsaugos priemonės.</statement>
+ <statement id="17">Žmonės kritikuojantys miškininkus užmiršta, kad miškotvarka tai būdas naudotis aplinka jos nežalojant. Rūpintis mišku ir jį atsodinti - tai atsakingų procedūrų kelias.</statement>
+ <statement id="18">Genetinių draustinių tikslas - maksimaliai pagerinti medienos kokybę, padidinti medynų našumą visiškai nesiderina su aplink esančios saugomos teritorijos – tiek draustinio, tiek rezervato tikslais.</statement>
+ <statement id="19">Kadangi žmonės prastai išmano miško tvarkymo procesus, geriau būtų, jeigu jie nesikištų į miškininkų darbą.</statement>
+ <statement id="20">Eglės tai Šiaurinių kraštų medžiai, esantys savo arealo paribyje. Klimatui šylant, šie eglynai natūraliai silpsta ir galiausiai išnyks iš Punios šilo.</statement>
+ <statement id="21">Mes nebevertiname gamtos natūralumo ir kuriame surogatinę gamtą, kuri būtų patogi ir graži - takeliai, stendai.</statement>
+ <statement id="22">Mes nesame protingesni už gamtą ir nežinome kaip geriau ja rūpintis.</statement>
+ <statement id="23">Nuo pat 2017-ųjų vystomas nepakankamas dialogas tarp gamtininkų ir miškininkų, todėl ir turime problemą.</statement>
+ <statement id="24">Įsteigti rezervatą ir palikti mišką tvarkytis natūraliais procesais tai ne tas pats kas jį išsaugoti.</statement>
+ <statement id="25">Arba mes saugosime biologinės įvairovės vertybes šioje teritorijoje, arba naudosime mišką ūkio reikmėms ir tuomet apie jokią apsaugą negali būti net kalbos.</statement>
+</statements>

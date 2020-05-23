@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Configuration file.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+//
+-->
+
+   <config version="1.0" htmlParse="false">
+
+      <!-- title of the study -->
+      <item id="studyTitle">Name of your study</item>
+
+      <!-- text-align property(left|right) -->
+      <item id="textAlign">left</item>
+
+      <!-- shuffle cards (true|false)  -->
+      <item id="shuffleCards">true</item>
+
+      <!-- login required (true|false) -->
+      <item id="loginrequired">false</item>
+      <!-- login with common password (leave blank if not required) -->
+      <item id="loginPassword"></item>
+      <!-- URL to individual login script(leave blank if not required) -->
+      <item id="loginUrl"></item>
+      <!-- request mode (post|get) -->
+      <item id="loginUrlMethod"></item>
+
+      <!-- activate/deactivate optional steps (true|false) -->
+      <item id="showStep3">true</item>
+      <item id="showStep4">true</item>
+      <item id="showStep5">true</item>
+
+      <!-- HtmlQ only: disable the in-window back button -->
+      <item id="disableBackButton">false</item>
+
+      <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+      <!-- add label: <label>[STRING]</label> -->
+      <!-- add note: <note>[STRING]</note> -->
+      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+      <item id="form">
+
+<label>Jūsų vardas ir pavardė (reikalinga identifikuoti jūsų atsakymus, neviešinama)*</label>
+         <input type="text" required="true"></input>
+
+         <label>Jūsų užimamos pareigos. Galite įrašyti ir savo profesiją. (neviešinama)*</label>
+         <input type="text" required="true"></input>
+
+<label>Jūsų nuomone:</label>
+         <note>Ar reikia išplėsti Punios šilo rezervatinę zoną?</note>
+         <input type="radio" required="true">Taip;Ne;Negaliu pasakyti</input>
+
+<label>Ar nutiko taip, jog dėl vietos stokos, teiginius su kuriais sutikote, privalėjote dėti prie -1, -2, -3 ar teiginius su kuriais nesutikote privalėjote dėti prie +1, +2, +3? Jei taip, ties kuriuo skaičiumi brėžtumėte neutralumo (0) stulpelį? (galite sugrįžti patikrinti, atsakymai išsisaugos)</label>
+         <input type="textarea" required="false"></input>
+
+         <label>Jeigu turite komentarų galite parašyti čia. Taip pat jeigu norite gauti tyrimo išvadas, parašykite elektroninį paštą.</label>
+         <input type="textarea" required="false"></input>
+
+         <note bg="false">Laukeliai su * ženklu - privalomi</note>
+      </item>
+
+      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+      <item id="submitUrl">exe.php?do=save</item>
+
+      <!-- request mode (post|get|firebase) -->
+      <item id="submitUrlMethod">firebase</item>
+
+      <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+      <item id="submitMail">yourdomain.com</item>
+   </config>
